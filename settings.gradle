@@ -1,0 +1,3 @@
+rootProject.name = 'pancake-parking-fun'
+
+rootProject.children.each { it.name = "demo-${it.name}" }

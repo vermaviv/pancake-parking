@@ -1,8 +1,19 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files & folders
 *.log
+logs/
+log/
+
+# Tmp files & folder
+tmp/
+temp/
+
+
+# Gradle files
+.gradle/
+build/
 
 # BlueJ files
 *.ctxt
@@ -18,7 +29,44 @@
 *.zip
 *.tar.gz
 *.rar
+*.7z
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin
+bin/**
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+.cproject
+
+#Profiling
+.hprof
+
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+
+
+# File backups
+*.bak
+*.backup
+
+
