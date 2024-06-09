@@ -1,3 +1,8 @@
 rootProject.name = 'pancake-parking-fun'
 
+include 'local-eureka-server'
+include 'api-gateway'
+
 rootProject.children.each { it.name = "demo-${it.name}" }
+
+
